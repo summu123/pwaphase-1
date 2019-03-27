@@ -1,0 +1,67 @@
+body{
+  background: #BA4A00;
+  text-align: center;
+}
+h1{
+  font-weight: 300;
+  font-style: oblique;
+  text-align: center;
+}
+.parent{
+  background:  #17A589;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  padding: 3%;
+  border: 3px solid #C0392B
+
+}
+.child1{
+  background: #EC7063;
+  border-radius: 3%;
+  width:30%;
+  margin:2%;
+  padding: 4%;
+  text-align: center;
+  border: 3px solid #2874A6
+}
+.child2{
+  background: #2874A6;
+  border-radius: 3%;
+width:30%;
+margin:2%;
+padding: 4%;
+text-align: center;
+border: 3px solid  #EC7063
+}
+.child3{
+  background: #EBDEF0;
+  border-radius: 3%;
+width:30%;
+margin:2%;
+padding: 4%;
+text-align: center;
+border: 3px solid  #EC7063
+}
+img{
+  border-radius: 4%;
+  width:80%;
+  height:50%;
+}
+@media screen and (min-width:360px) and (max-width:767px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .child1,.child2,.child3{
+    width: 90%;
+  }
+}
+ @media screen and (min-width:768px) and (max-width:1023px) {
+    .parent{
+      flex-wrap: wrap;
+    }
+    .child1,.child2,.child3{
+      width:35%;
+    }
+  }

@@ -1,0 +1,50 @@
+{
+  "profile":{
+    "image":"images/download.jpg",
+    "Name":"sumanth",
+    "Designation":"Student",
+    "Gender":"male",
+    "Address":"Rayachoty",
+    "Email":"sumanthkotha1999@gmail.com",
+    "phone no":"9492225813"
+  },
+  "Career":{
+    "information":"To qualify in GRE exam"
+
+  },
+  "Education":
+  [
+    {
+    "Sno":"1",
+    "Degree":"B.Tech",
+    "institution":"MITS",
+    "percentage":"92",
+    "year_of_passing":"2021"
+  },
+  {
+    "Sno":"2",
+    "Degree":"inter",
+    "institution":"sri chaitanya jr college",
+    "percentage":"971",
+    "year_of_passing":"2017"
+  },
+  {
+    "Sno":"3",
+    "Degree":"ssc",
+    "institution":"sri chaitanya techno school",
+    "percentage":"9.7",
+    "year_of_passing":"2015"
+  }
+],
+"skills":[
+  {
+  "name":"Web_technologies",
+  "information":["HTML","css","js","json"]
+},
+{
+  "name":"Databases",
+  "information":["jdbc","sql","firebase","sqllite"]
+}
+]
+
+}
